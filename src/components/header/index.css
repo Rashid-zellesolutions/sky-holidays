@@ -1,0 +1,129 @@
+
+.mainHeader{
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;
+}
+.topHeader{
+    background: var(--secondary-color);
+    color: rgba(255, 255, 255, 0.8);
+    /* padding: 8px 40px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.leftContent > ul {
+   margin: 10px;
+}
+.leftContent > ul > li {
+    list-style: none;
+    display: inline-block;
+}
+
+.leftContent > ul > li:not(:last-child) {
+    margin-right: 40px;
+    position: relative;
+}
+
+.leftContent > ul > li > a {
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-decoration: none;
+  
+    display: flex; /* Enable Flexbox */
+    align-items: center; /* Center items vertically */
+    gap: 8px; /* Optional: Adds space between the image and text */
+  }
+  
+.leftContent > ul > li > a > img{
+    height: 15px;
+    width: auto;
+}
+
+.subHeader{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    box-sizing: border-box;
+ 
+    padding: 0 30px;
+}
+
+.logoSide img{
+    height: 55px;
+    width: auto;
+}
+
+.linksSide ul{
+    padding-left: 0;
+    /* margin-bottom: 0; */
+    list-style: none;
+    margin: 0;
+}
+
+.linksSide ul li{
+    display: inline-block;
+}
+
+.linksSide ul li a{
+    display: block;
+    padding: 35px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.actionSide > ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.miniCart{
+    width: 44px;
+    height: 44px;
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.miniCart img{
+    height: 20px;
+    width: auto;
+}
+
+.actionSide > ul > li {
+    display: inline-block;
+    list-style: none;
+}
+
+.actionSide > ul > li:not(:first-child) {
+    margin-left: 20px;
+}
+
+.btn1{
+    background: var(--main-color);
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    padding: 12px 22px;
+    transition: all 0.3s;
+}
+

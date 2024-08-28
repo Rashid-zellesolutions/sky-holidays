@@ -1,0 +1,8 @@
+.mainSlider{
+    background-image: url("https://skyholidays.pk/wp-content/uploads/2022/12/Slider-22.png");
+    background-size: contain; /* Make the image fit within the div */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    width: auto; /* Allow width to be dynamic */
+    height: 600px; /* Allow height to be dynamic */
+    position: relative;
+}

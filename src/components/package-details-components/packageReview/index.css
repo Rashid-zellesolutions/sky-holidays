@@ -1,0 +1,133 @@
+/* Package Review */
+
+.package-reviews-main-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.package-reviews-main-container h3{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #232323;
+}
+
+.package-review-comment-container{
+    display: flex;
+    width: 95%;
+    padding: 20px;
+    border: 1px solid #DEDEDE;
+    border-radius: 25px;
+    background: #FCFCFC;
+}
+
+.package-review-count{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #DEDEDE;
+    gap: 15px;
+}
+
+.package-review-range{
+    display: flex;
+    gap: 10px;
+}
+
+.package-review-range i{
+    color: orange;
+}
+
+.package-review-range h3{
+    color: #3B71FE;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.package-review-count h3{
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 32px;
+    color: #232323;
+}
+
+.package-review-count p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+.package-review-comment{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+    /* padding-left: 20px; */
+}
+
+.review-comment{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    justify-content: end;
+    gap: 30px;
+    width: 100%;
+    /* background-color: orange; */
+    /* padding-left: 130px; */
+}
+
+.review-comment p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #232323;
+    margin: 0px;
+    min-width: 60px;
+}
+
+.review-comment p:nth-child(2){
+    color: #3B71FE !important;
+}
+
+.separator{
+    width: 40%;
+    background-color: #DEDEDE;
+    height: 8px;
+    border-radius: 25px;
+}
+
+.review-summery-container{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.review-summery{
+    color: var(--grey-color, #5E6D77);
+    font-size: 14px;
+}
+
+.write-a-review-btn{
+    width: max-content;
+    background: var(--main-color);
+    border-radius: 50px;
+    color: #FFF !important;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border: 1px solid var(--main-color);
+}
+
+.write-a-review-btn:hover{
+    border: 1px solid var(--main-color);
+}

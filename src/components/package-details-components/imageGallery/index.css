@@ -1,0 +1,101 @@
+.image-gallery-main-container{
+    display: flex;
+    flex-direction: column;
+    /* width: 100%; */
+    padding: 50px;
+}
+
+.image-gallery-heading-and-icons{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.image-gallery-heading-and-review{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.image-gallery-heading-and-review h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin: 0;
+}
+
+.image-gallery-rating{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.yellow-star{
+    color: orange;
+}
+
+.image-gallery-rating h3{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.image-gallery-rating p{
+    font-size: 16px;
+    line-height: 26px;
+    color: var(--light-color);
+    margin: 0;
+}
+
+.image-gallery-icons{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.image-gallery-icons p{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 1px solid #DEDEDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: transparent; */
+    background-color: #ffff;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px, rgba(0, 0, 0, 0.2) 0px 0px 0px 1px; */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 4px 12px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+.image-gallery-icons p:hover{
+    border: 1px solid #E8E8E8;
+}
+
+.image-gallery-icons button{
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    border: 1px solid #DEDEDE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: transparent; */
+    background-color: #ffff;
+    /* box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 8px 0px, rgba(0, 0, 0, 0.2) 0px 0px 0px 1px; */
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.image-gallery-icons button:hover{
+    border: 1px solid #E8E8E8;
+}
+
+.image-gallery-icons button img{
+    height: 18px;
+    width: auto;
+}

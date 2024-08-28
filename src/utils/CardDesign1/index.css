@@ -1,0 +1,30 @@
+.cardDesign1 {
+    position: relative; /* Relative positioning to create a context for the pseudo-element */
+    width: 100%;
+    height: 300px;
+    display: inline-block;
+    border-radius: 20px;
+    overflow: hidden; /* Ensure the zoomed image does not overflow outside the border radius */
+  }
+  
+  /* Using CSS variable for dynamic background image */
+  .cardDesign1::before {
+    content: "";
+    position: absolute; /* Absolute positioning to cover the entire div */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--background-img); /* Use CSS variable for the dynamic image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: transform 0.5s ease; /* Smooth transition for zoom effect */
+    z-index: -1; /* Ensure the pseudo-element stays behind any content */
+  }
+  
+  /* Hover effect to zoom the background image */
+  .cardDesign1:hover::before {
+    transform: scale(1.1); /* Scale up the background image slightly */
+  }
+  
