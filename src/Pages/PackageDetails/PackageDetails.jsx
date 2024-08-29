@@ -1,6 +1,6 @@
 import React from 'react'
-import ImageGallery from '../../components/package-details-components/imageGallery'
-import PackageDetailStickySection from '../../components/package-details-components/packageDetalisStickySection'
+import ImageGallery from '../../utils/imageGallery'
+import PackageDetailStickySection from '../../components/packageDetalisStickySection'
 
 const PackageDetails = () => {
   return (

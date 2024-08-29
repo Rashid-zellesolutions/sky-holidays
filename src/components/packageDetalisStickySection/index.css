@@ -3,6 +3,7 @@
     padding: 0 50px;
     border-bottom: 1px solid #727272;
     gap: 20px;
+    position: relative;
 }
 
 .sticky-left-section{
@@ -17,8 +18,11 @@
     flex-direction: column;
     width: 30%;
     height: max-content;
+    max-height: max-content;
+
     gap: 10px;
     position: -webkit-sticky;
     position: sticky;
     top: 0;
+    overflow: hidden;
 }

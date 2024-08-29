@@ -12,6 +12,12 @@ import { IoIosArrowUp } from "react-icons/io";
 
 function App() {
   const [count, setCount] = useState(0)
+  const handleClickTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+  }
 
   return (
     <div>
@@ -19,7 +25,7 @@ function App() {
       <Routes>
       <Route path='/package-details' element={<PackageDetails />} />
       </Routes>
-      <p className='take-to-top-btn'>
+      <p className='take-to-top-btn' onClick={handleClickTop}>
           <IoIosArrowUp size={30} />
       </p>
     </div>

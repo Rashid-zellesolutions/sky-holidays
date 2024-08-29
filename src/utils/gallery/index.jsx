@@ -1,10 +1,10 @@
 import React from 'react'
 import './index.css';
-import leftImage from '../../../assets/package-detail/gallery-images/left-image.jpg'
-import centerOne from '../../../assets/package-detail/gallery-images/center-one.jpg';
-import centerTwo from '../../../assets/package-detail/gallery-images/center-two.jpg';
-import rightOne from '../../../assets/package-detail/gallery-images/right-one.jpg';
-import rightTwo from '../../../assets/package-detail/gallery-images/right-two.jpg';
+import leftImage from '../../assets/package-detail/gallery-images/left-image.jpg'
+import centerOne from '../../assets/package-detail/gallery-images/center-one.jpg';
+import centerTwo from '../../assets/package-detail/gallery-images/center-two.jpg';
+import rightOne from '../../assets/package-detail/gallery-images/right-one.jpg';
+import rightTwo from '../../assets/package-detail/gallery-images/right-two.jpg';
 import { TbCategory } from "react-icons/tb";
 
 const Gallery = () => {

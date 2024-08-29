@@ -2,7 +2,7 @@ import React from 'react'
 import './index.css';
 import { FaStar } from "react-icons/fa";
 import { IoArrowRedoOutline } from "react-icons/io5";
-import heartIcon from '../../../assets/1077035 1.png'
+import heartIcon from '../../assets/1077035 1.png'
 import Gallery from '../gallery';
 
 const ImageGallery = () => {
